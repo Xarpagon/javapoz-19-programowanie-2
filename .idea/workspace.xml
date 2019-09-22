@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd8297b1-f9df-4a82-b77f-51861b938fab" name="Default Changelist" comment="" />
+    <list default="true" id="dd8297b1-f9df-4a82-b77f-51861b938fab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/generator/FactorialGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/generator/FibonacciGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/generator/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/generator/GeneratorAlgorithmType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/generator/GeneratorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sdacademy/javapoz19programowanie2/generator/FactorialGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sdacademy/javapoz19programowanie2/generator/FibonacciGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sdacademy/javapoz19programowanie2/generator/GeneratorFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fibonacci.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javapoz19programowanie2.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,13 +42,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1RBQHtb83GQGSxqVoCtX3S1bsEO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.sdacademy.javapoz19programowanie2.generator" />
       <recent name="pl.sdacademy.javapoz19programowanie2.factorial" />
       <recent name="pl.sdacademy.javapoz19programowanie2.power" />
       <recent name="pl.sdacademy.javapoz19programowanie2.fibonacci" />
@@ -41,6 +62,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sdacademy.javapoz19programowanie2.generator" />
       <recent name="pl.sdacademy.javapoz19programowanie2.power" />
       <recent name="pl.sdacademy.javapoz19programowanie2.fibonacci" />
     </key>
@@ -57,39 +79,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialRecursiveTest">
-    <configuration name="FactorialFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fibonacci" />
+  <component name="RunManager" selected="JUnit.GeneratorFactoryTest">
+    <configuration name="FactorialGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javapoz19programowanie2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.factorial.*" />
+          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial" />
-      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial.FactorialFactoryTest" />
+      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.generator" />
+      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.generator.FactorialGeneratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialIterationalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fibonacci" />
+    <configuration name="FactorialGeneratorTest.next_shouldReturn120At5thCall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javapoz19programowanie2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.factorial.*" />
+          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial" />
-      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial.FactorialIterationalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.generator" />
+      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.generator.FactorialGeneratorTest" />
+      <option name="METHOD_NAME" value="next_shouldReturn120At5thCall" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FactorialRecursiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fibonacci" />
+      <module name="javapoz19programowanie2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.factorial.*" />
@@ -103,45 +126,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialRecursiveTest.getN_shouldReturnResultOf0Factorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fibonacci" />
+    <configuration name="FibonacciGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javapoz19programowanie2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.factorial.*" />
+          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial" />
-      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial.FactorialRecursiveTest" />
-      <option name="METHOD_NAME" value="getN_shouldReturnResultOf0Factorial" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.generator" />
+      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.generator.FibonacciGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialRecursiveTest.shouldThrowExceptionWhenNIsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fibonacci" />
+    <configuration name="GeneratorFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javapoz19programowanie2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.factorial.*" />
+          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial" />
-      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial.FactorialRecursiveTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionWhenNIsNegative" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.generator" />
+      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.generator.GeneratorFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="javapoz19programowanie2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="javapoz19programowanie2" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GeneratorFactoryTest" />
+        <item itemvalue="JUnit.FactorialGeneratorTest" />
+        <item itemvalue="JUnit.FibonacciGeneratorTest" />
+        <item itemvalue="JUnit.FactorialGeneratorTest.next_shouldReturn120At5thCall" />
         <item itemvalue="JUnit.FactorialRecursiveTest" />
-        <item itemvalue="JUnit.FactorialFactoryTest" />
-        <item itemvalue="JUnit.FactorialIterationalTest" />
-        <item itemvalue="JUnit.FactorialRecursiveTest.shouldThrowExceptionWhenNIsNegative" />
-        <item itemvalue="JUnit.FactorialRecursiveTest.getN_shouldReturnResultOf0Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -157,5 +225,16 @@
       <updated>1569137924104</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
