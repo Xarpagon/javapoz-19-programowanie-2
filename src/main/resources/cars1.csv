@@ -1,0 +1,6 @@
+brand;model;productionYear;mileage;bodyType;engineType;engineVolume
+Honda;Civic;1995;230000.0;SEDAN;LPG;1.6
+Subaru;Impreza;2003;180000.0;SEDAN;BENZYNA;2.0
+Daewoo;Lanos;1640;3400000.0;KOMBI;DIESEL;69.0
+Renault;Kangoo;2010;115000.0;HATCHBACK;DIESEL;1.5
+Seat;Ibiza;2008;250000.0;HATCHBACK;BENZYNA;1.4

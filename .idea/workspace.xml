@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8297b1-f9df-4a82-b77f-51861b938fab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/BodyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/CSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/CSVWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/CarsReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/CarsWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/EngineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/csv/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/fileOperations/MyFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/fileOperations/MyFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/json/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/json/JsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/javapoz19programowanie2/json/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cars.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cars1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/person.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/persons.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/persons1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,9 +34,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -38,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -49,10 +69,15 @@
       <recent name="pl.sdacademy.javapoz19programowanie2.power" />
       <recent name="pl.sdacademy.javapoz19programowanie2.fibonacci" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pl.sdacademy.javapoz19programowanie2" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sdacademy.javapoz19programowanie2.json" />
+      <recent name="pl.sdacademy.javapoz19programowanie2.csv" />
       <recent name="pl.sdacademy.javapoz19programowanie2.generator" />
       <recent name="pl.sdacademy.javapoz19programowanie2.power" />
       <recent name="pl.sdacademy.javapoz19programowanie2.fibonacci" />
@@ -70,7 +95,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GeneratorFactoryTest">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.App" />
+      <module name="javapoz19programowanie2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactorialGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javapoz19programowanie2" />
       <extension name="coverage">
@@ -98,21 +136,6 @@
       <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.generator.FactorialGeneratorTest" />
       <option name="METHOD_NAME" value="next_shouldReturn120At5thCall" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialRecursiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javapoz19programowanie2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sdacademy.javapoz19programowanie2.factorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial" />
-      <option name="MAIN_CLASS_NAME" value="pl.sdacademy.javapoz19programowanie2.factorial.FactorialRecursiveTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.GeneratorFactoryTest" />
         <item itemvalue="JUnit.FactorialGeneratorTest" />
         <item itemvalue="JUnit.FibonacciGeneratorTest" />
         <item itemvalue="JUnit.FactorialGeneratorTest.next_shouldReturn120At5thCall" />
-        <item itemvalue="JUnit.FactorialRecursiveTest" />
       </list>
     </recent_temporary>
   </component>
